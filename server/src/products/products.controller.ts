@@ -1,6 +1,7 @@
 import { Controller, Post, Body } from '@nestjs/common';
 import { ProductsService } from './products.service';
 
+// Route: localhost:3000/products
 @Controller('products')
 export class ProductController {
   constructor(private readonly productService: ProductsService) {}

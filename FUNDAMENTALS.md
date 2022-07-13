@@ -17,3 +17,17 @@
         +, Enforces clean code and a clear project structure by giving you a series of building blocks
 
         +, Makes building complex applications easy
+
+## 2. Structure of a Nest.js folder:
+
+    - Each module has:
+
+        +, A controller file: contain route declaration and main business operations
+
+        +, A model file: contain the schema of the module
+
+        +, A module file: to be exported and link in app.module.ts file
+
+        +, A service file: contain helper functions
+
+    => See ./server/src/products

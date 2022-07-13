@@ -1,12 +1,19 @@
 ## LEARNING GUIDES FOR NEST.JS
 
-## 1. WHAT IS NEST.JS ?
+## 1. FUNDAMENTALS:
 
-- See FUNDAMENTALS.md
+    - What is Nest.js ?
+    - Structure of a Nest.js folder
 
-## 2. Set Up & Commands:
+    => See FUNDAMENTALS.md
+
+## 2. SETUP & COMMANDS
 
     $ npm i -g @nestjs/cli
     $ nest new project-name
 
-## 3. Resources:
+## 3. COMMIT HISTORY:
+
+    - 1st Commit: Nest.js Fundamentals
+
+    => See HISTORY.md
